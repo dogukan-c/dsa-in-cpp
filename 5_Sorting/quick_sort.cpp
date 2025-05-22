@@ -38,3 +38,9 @@ int main()
 }
 // Output: 10 30 40 50 70 80 90
 // Time Complexity: O(n log n) on average, O(n^2) in the worst case
+// Space Complexity: O(log n) due to recursion stack
+// Explanation:
+// The quickSort function sorts the array in ascending order using the quicksort algorithm.
+// It selects a pivot element and partitions the array into two subarrays: elements less than the pivot and elements greater than the pivot.
+// It then recursively sorts the subarrays.
+// The partition function rearranges the elements in the array based on the pivot.

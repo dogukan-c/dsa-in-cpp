@@ -40,3 +40,10 @@ int main()
 		cout << x << " ";
 	return 0;
 }
+// Output: 1 5 7 8 9 10
+// Explanation:
+// The mergeSort function sorts the array in ascending order using the merge sort algorithm.
+// It divides the array into two halves, recursively sorts each half, and then merges the sorted halves.
+// The merge function combines two sorted arrays into one sorted array.
+// The time complexity is O(n log n) and the space complexity is O(n) due to the use of temporary arrays for merging.
+// Note: Merge sort is a stable sorting algorithm, meaning that it preserves the relative order of equal elements.

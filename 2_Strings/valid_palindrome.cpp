@@ -34,3 +34,12 @@ int main()
 	     << endl;
 	return 0;
 }
+// Output: Valid Palindrome
+// Explanation:
+// The isPalindrome function checks if the input string is a palindrome by using two pointers.
+// It ignores non-alphanumeric characters and is case-insensitive.
+// The function iterates through the string, moving the left pointer to the right and the right pointer to the left.
+// If the characters at both pointers are not equal, it returns false.
+// If the loop completes without finding any mismatches, it returns true.
+// The time complexity is O(n) and the space complexity is O(1).
+// Note: The function uses the isalnum function to check if a character is alphanumeric and the tolower function to convert characters to lowercase.

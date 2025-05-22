@@ -36,11 +36,8 @@ int main()
 	return 0;
 }
 // Output: 5 6 7 1 2 3 4
-// Explanation: The array is rotated right by 3 steps. The first 3 elements (1,
-// 2, 3) are moved to the end of the array, and the last 4 elements (4, 5, 6, 7)
-// are moved to the front. The reverse function reverses the elements in the
-// specified range of the array. The rotate function first reverses the entire
-// array, then reverses the first k elements, and finally reverses the remaining
-// n-k elements. This effectively rotates the array to the right by k steps. The
-// time complexity of this algorithm is O(n), where n is the size of the array,
-// and the space complexity is O(1) since we are modifying the array in place.
+// Explanation:
+// The rotate function rotates the array to the right by k steps.
+// It first reverses the entire array, then reverses the first k elements, and finally reverses the remaining n-k elements.
+// This effectively rotates the array in-place without using extra space.
+// The time complexity is O(n) and the space complexity is O(1).

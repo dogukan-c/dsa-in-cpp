@@ -28,3 +28,10 @@ int main()
 		cout << x << " ";
 	return 0;
 }
+// Output: 1 2 4 5 8
+// Explanation:
+// The bubbleSort function sorts the array in ascending order using the bubble sort algorithm.
+// It repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+// The outer loop runs n-1 times, and the inner loop runs n-i-1 times, where i is the current iteration of the outer loop.
+// The time complexity is O(n^2) in the worst case, and the space complexity is O(1) since it sorts the array in place.
+// Note: Bubble sort is not the most efficient sorting algorithm for large datasets, but it is simple and easy to understand.

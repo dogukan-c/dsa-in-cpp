@@ -31,3 +31,12 @@ int main()
 	cout << "LCM: " << lcm(a, b) << endl;
 	return 0;
 }
+// Output:
+// GCD: 12
+// LCM: 180
+// Explanation:
+// The gcd function computes the greatest common divisor of two integers using the Euclidean algorithm.
+// The lcm function computes the least common multiple using the relationship between GCD and LCM.
+// The main function demonstrates the usage of these functions by calculating the GCD and LCM of 36 and 60.
+// The output shows the GCD as 12 and the LCM as 180.
+// The time complexity for both GCD and LCM functions is O(log(min(a, b))) due to the Euclidean algorithm.

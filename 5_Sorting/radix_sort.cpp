@@ -50,3 +50,10 @@ int main()
 		cout << x << " ";
 	return 0;
 }
+// Output: 2 24 45 66 75 90 170 802
+// Explanation:
+// The radixSort function sorts the array in ascending order using the radix sort algorithm.
+// It first finds the maximum value in the array to determine the number of digits.
+// It then sorts the array digit by digit using counting sort as a subroutine.
+// The countSort function sorts the array based on the current digit (exp).
+// The time complexity is O(n * k), where n is the number of elements in the array and k is the number of digits in the maximum element.

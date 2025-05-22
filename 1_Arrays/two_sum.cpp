@@ -36,3 +36,10 @@ int main()
 
 	return 0;
 }
+// Output: 0 2
+// Explanation:
+// The twoSum function uses a hash map to store the indices of the elements.
+// For each element in the array, it calculates the complement (target - current element).
+// If the complement is found in the hash map, it returns the indices of the current element and its complement.
+// The time complexity is O(n) and the space complexity is O(n).
+// Note: The function returns the first pair of indices found. If no such pair exists, it returns an empty vector.

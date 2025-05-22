@@ -41,3 +41,9 @@ int main()
 	return 0;
 }
 // Output: 1 3 4 5 10
+// Explanation:
+// The heapSort function sorts the array in ascending order using the heap sort algorithm.
+// It first builds a max heap from the input array.
+// Then it repeatedly extracts the maximum element from the heap and places it at the end of the array.
+// The heapify function is used to maintain the heap property.
+// The time complexity is O(n log n) and the space complexity is O(1) since it sorts the array in place.

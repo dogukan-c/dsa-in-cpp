@@ -37,3 +37,10 @@ int main()
 
 	return 0;
 }
+// Output: 1 3 4 5 9
+// Explanation:
+// The insertionSort function sorts the array in ascending order using the insertion sort algorithm.
+// It iterates through the array, and for each element, it finds the correct position in the sorted part of the array.
+// It shifts larger elements to the right and inserts the current element in its correct position.
+// The time complexity is O(n^2) in the worst case (when the array is sorted in reverse order) and O(n) in the best case (when the array is already sorted).
+// The space complexity is O(1) since it sorts the array in place.

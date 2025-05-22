@@ -26,3 +26,7 @@ int main()
 	cout << "Bit difference: " << bitDifference(a, b) << endl;
 	return 0;
 }
+// Output: Bit difference: 2
+// Explanation:
+// The bitDifference function calculates the number of bits that differ between two integers a and b.
+// It uses the XOR operator to find the bits that are different.

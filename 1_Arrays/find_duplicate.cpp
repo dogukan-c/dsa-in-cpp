@@ -31,3 +31,12 @@ int main()
 	cout << "Duplicate: " << findDuplicate(nums) << endl;
 	return 0;
 }
+// Output: Duplicate: 5
+// Explanation:
+// The findDuplicate function uses Floyd's Cycle Detection algorithm to find the duplicate number in the array.
+// It initializes two pointers, slow and fast, both starting at the first element.
+// The slow pointer moves one step at a time, while the fast pointer moves two steps at a time.
+// When they meet, it indicates a cycle.
+// To find the duplicate, it resets the slow pointer to the start and moves both pointers one step at a time until they meet again.
+// The meeting point is the duplicate number.
+// The time complexity is O(n) and the space complexity is O(1).
